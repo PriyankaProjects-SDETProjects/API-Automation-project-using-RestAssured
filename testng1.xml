@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Priyanka.Pandey/IdeaProjects/APIAutomation2024/src/test/java/thetestingacademy/TestNGexamples">
+        <classes><class name="thetestingacademy.TestNGexamples.TestNGEx1">
+            <methods><include name="Test1"/>
+                <include name="Test2"/>
+            </methods>
+       </class>
+               <class name="thetestingacademy.TestNGexamples.TestNGallAnnotations">
+                   <methods><include name="Demo5"/>
+                   </methods>
+               </class>
+        </classes>
+    </test>
+</suite>
